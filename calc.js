@@ -6,130 +6,132 @@ let input = document.querySelector('#userinput');
 let keepLeft = $('#userinput');
 
 //*******************number button functionality*******************//
+
 $('#one').click(function(){
-	$('#one').css('color', '#80cbc4');
+	$('#one').css('background-color', '#80cbc4');
 	input.innerHTML += '1';
 	keepLeft.scrollLeft(900000000);
 	total.push('1');
 
 	setTimeout(function(){
-		$('#one').css('color', 'white');
+		$('#one').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#two').click(function(){
-	$('#two').css('color', '#80cbc4');
+	$('#two').css('background-color', '#80cbc4');
 	input.innerHTML += '2';
 	keepLeft.scrollLeft(900000000);
 	total.push('2');
 
 	setTimeout(function(){
-		$('#two').css('color', 'white');
+		$('#two').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#three').click(function(){
-	$('#three').css('color', '#80cbc4');
+	$('#three').css('background-color', '#80cbc4');
 	input.innerHTML += '3';
 	keepLeft.scrollLeft(900000000);
 	total.push('3');
 
 	setTimeout(function(){
-		$('#three').css('color', 'white');
+		$('#three').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#four').click(function(){
-	$('#four').css('color', '#80cbc4');
+	$('#four').css('background-color', '#80cbc4');
 	input.innerHTML += '4';
 	keepLeft.scrollLeft(900000000);
 	total.push('4');
 
 	setTimeout(function(){
-		$('#four').css('color', 'white');
+		$('#four').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#five').click(function(){
-	$('#five').css('color', '#80cbc4');
+	$('#five').css('background-color', '#80cbc4');
 	input.innerHTML += '5';
 	keepLeft.scrollLeft(900000000);
 	total.push('5');
 
 	setTimeout(function(){
-		$('#five').css('color', 'white');
+		$('#five').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#six').click(function(){
-	$('#six').css('color', '#80cbc4');
+	$('#six').css('background-color', '#80cbc4');
 	input.innerHTML += '6';
 	keepLeft.scrollLeft(900000000);
 	total.push('6');
 
 	setTimeout(function(){
-		$('#six').css('color', 'white');
+		$('#six').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#seven').click(function(){
-	$('#seven').css('color', '#80cbc4');
+	$('#seven').css('background-color', '#80cbc4');
 	input.innerHTML += '7';
 	keepLeft.scrollLeft(900000000);
 	total.push('7');
 
 	setTimeout(function(){
-		$('#seven').css('color', 'white');
+		$('#seven').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#eight').click(function(){
-	$('#eight').css('color', '#80cbc4');
+	$('#eight').css('background-color', '#80cbc4');
 	input.innerHTML += '8';
 	keepLeft.scrollLeft(900000000);
 	total.push('8');
 
 	setTimeout(function(){
-		$('#eight').css('color', 'white');
+		$('#eight').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#nine').click(function(){
-	$('#nine').css('color', '#80cbc4');
+	$('#nine').css('background-color', '#80cbc4');
 	input.innerHTML += '9';
 	keepLeft.scrollLeft(900000000);
 	total.push('9');
 
 	setTimeout(function(){
-		$('#nine').css('color', 'white');
+		$('#nine').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#zero').click(function(){
-	$('#zero').css('color', '#80cbc4');
+	$('#zero').css('background-color', '#80cbc4');
 	input.innerHTML += '0';
 	keepLeft.scrollLeft(900000000);
 	total.push('0');
 
 	setTimeout(function(){
-		$('#zero').css('color', 'white');
+		$('#zero').css('background-color', '#616161');
 	}, 200);
 });
 
 $('#period').click(function(){
-	$('#period').css('color', '#80cbc4');
+	$('#period').css('background-color', '#80cbc4');
 	input.innerHTML += '.';
 	keepLeft.scrollLeft(900000000);
 	total.push('.');
 
 	setTimeout(function(){
-		$('#period').css('color', 'white');
+		$('#period').css('background-color', '#616161');
 	}, 200);
 });
 
 //*******************OPERATORS*******************//
-$('#divide').click(function(){
-	$('#divide').css('color', '#616161');
+
+$('.divide').click(function(){
+	$('.divide').css('background-color', '#616161');
 
 	//makes sure an equation can't start with an operator
 	if(input.innerHTML === ''){
@@ -141,12 +143,12 @@ $('#divide').click(function(){
 	}
 
 	setTimeout(function(){
-		$('#divide').css('color', 'white');
+		$('.divide').css('background-color', '#80cbc4');
 	}, 200);
 });
 
-$('#times').click(function(){
-	$('#times').css('color', '#616161');
+$('.times').click(function(){
+	$('.times').css('background-color', '#616161');
 
 	//makes sure an equation can't start with an operator
 	if(input.innerHTML === ''){
@@ -158,12 +160,12 @@ $('#times').click(function(){
 	}
 
 	setTimeout(function(){
-		$('#times').css('color', 'white');
+		$('.times').css('background-color', '#80cbc4');
 	}, 200);
 });
 
-$('#minus').click(function(){
-	$('#minus').css('color', '#616161');
+$('.minus').click(function(){
+	$('.minus').css('background-color', '#616161');
 
 	//makes sure an equation can't start with an operator
 	if(input.innerHTML === ''){
@@ -175,12 +177,12 @@ $('#minus').click(function(){
 	}
 
 	setTimeout(function(){
-		$('#minus').css('color', 'white');
+		$('.minus').css('background-color', '#80cbc4');
 	}, 200);
 });
 
-$('#plus').click(function(){
-	$('#plus').css('color', '#616161');
+$('.plus').click(function(){
+	$('.plus').css('background-color', '#616161');
 
 	//makes sure an equation can't start with an operator
 	if(input.innerHTML === ''){
@@ -192,26 +194,28 @@ $('#plus').click(function(){
 	}
 
 	setTimeout(function(){
-		$('#plus').css('color', 'white');
+		$('.plus').css('background-color', '#80cbc4');
 	}, 200);
 });
 
 //delete function
-$('#delete').click(function(){
-	$('#delete').css('color', '#616161');
+$('.delete').click(function(){
+	$('.delete').css('background-color', '#616161');
 	$('#userinput').html('');
 
 	total = [];
 	console.log(total);
 	//location.reload();
 	setTimeout(function(){
-		$('#delete').css('color', 'white');
+		$('.delete').css('background-color', '#80cbc4');
 	}, 200);
 });
 
+//*******************TOTAL FUNCTION*******************//
+
 //this function will find the value of the array taken from the input field
 $('#equals').click(function(){
-	$('#equals').css('color', '#80cbc4');
+	$('#equals').css('background-color', '#80cbc4');
 	$('#userinput').html();
 	
 	//convert the array of strings to an array of one string
@@ -234,8 +238,6 @@ $('#equals').click(function(){
 	//console.log(total);
 
 	setTimeout(function(){
-		$('#equals').css('color', 'white');
+		$('#equals').css('background-color', '#616161');
 	}, 200);
 });
-
-
