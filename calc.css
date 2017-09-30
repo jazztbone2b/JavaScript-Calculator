@@ -71,3 +71,22 @@ a{
 	text-decoration: none;
 	color: white;
 }
+button{
+	height: 55px;
+	width: 51px;
+	font-size: 44px;
+	margin-top: 2px;
+	margin-left: -2px;
+	background-color: #616161;
+	color: white;
+	border-style: none;
+}
+#opbutton{
+	font-size: 25px;
+	color: white;
+	height: 40px;
+	width: 58px;
+	margin-left: -6px;
+	margin-top: -2px;
+	background-color: #80cbc4;
+}
